@@ -1,8 +1,37 @@
 {
-  "name": "react-flash",
+  "name": "@djungst/react-flash",
   "version": "1.0.0",
   "description": "React Flash Component",
   "main": "./dist/index.js",
   "author": "djungst",
-  "license": "MIT"
+  "homepage": "https://github.com/wdjungst/react-flash2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wdjungst/react-flash2"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "NODE_ENV=development webpack",
+    "build:production": "NODE_ENV=production webpack -p",
+    "prepublish": "npm run build:production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.1",
+    "webpack": "^3.3.0"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.0"
+  }
 }
