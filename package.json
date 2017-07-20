@@ -1,0 +1,8 @@
+{
+  "name": "react-flash",
+  "version": "1.0.0",
+  "description": "React Flash Component",
+  "main": "./dist/index.js",
+  "author": "djungst",
+  "license": "MIT"
+}
